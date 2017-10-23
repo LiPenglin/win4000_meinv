@@ -1,0 +1,14 @@
+scrapy startproject win4000meinv[项目名称]
+scrapy genspider meinv[spider.py]
+-----------------------------------
+scrapy crawl meinv
+--------------------
+Set a background color on all <div> elements that have a class attribute value containing "test":
+div[class*="test"] {
+    background: #ffff00;
+}
+---------------------------
+scrapy crawl meinv -o xxx.json # 将item保存在本地
+--------------------------------------------------
+
+
